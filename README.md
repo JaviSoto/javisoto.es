@@ -1,3 +1,13 @@
+# Deployment
+
+- Update the ```COMPRESS_REVISION_NUMBER```.
+- Run compress.py:
+
+```bash
+$ cd syte
+$ python compress.py
+```
+
 # Syte
 
 Syte is a really simple but powerful packaged personal site that has social integrations like tumblr, twitter, github, dribbble and instagram. You can see it in action on my personal site <http://rigoneri.com>

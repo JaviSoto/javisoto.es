@@ -16,7 +16,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'America/Los_Angeles'
 LANGUAGE_CODE = 'en-us'
 SITE_ID = 1
 USE_I18N = False
@@ -64,4 +64,4 @@ INSTALLED_APPS = (
 )
 
 from syte_settings import *
-
+from private_settings import *
