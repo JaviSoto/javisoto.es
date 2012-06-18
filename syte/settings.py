@@ -64,4 +64,8 @@ INSTALLED_APPS = (
 )
 
 from syte_settings import *
-from private_settings import *
+
+if DEPLOYMENT_MODE == 'dev':
+    from private_settings import *
+else:
+    from heroku_settings import *
