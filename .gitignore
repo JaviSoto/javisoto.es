@@ -1,2 +1,3 @@
 *.pyc
 .DS_Store
+private_settings.py
