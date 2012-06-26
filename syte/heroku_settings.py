@@ -1,3 +1,5 @@
+import os
+
 #Blog Integration: Tumblr
 TUMBLR_BLOG_URL = 'javisoto.tumblr.com'
 TUMBLR_API_URL = 'http://api.tumblr.com/v2/blog/{0}'.format(TUMBLR_BLOG_URL)
