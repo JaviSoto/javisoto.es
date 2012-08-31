@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Django settings for syte project.
 
 import os
@@ -33,10 +34,12 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'django.middleware.gzip.GZipMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'syte.middlewares.redirect_middleware.ValidateHostMiddleware',
 )
 
 ROOT_URLCONF = 'syte.urls'
