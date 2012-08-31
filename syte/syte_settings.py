@@ -12,4 +12,4 @@ else:
 	PREPEND_WWW = True
 	DEBUG = False
 
-MEDIA_URL = SITE_ROOT_URI + 'static/'
+MEDIA_URL = "http://" + SITE_ROOT_URI + '/static/'
