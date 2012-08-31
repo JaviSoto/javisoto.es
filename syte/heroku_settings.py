@@ -48,5 +48,46 @@ INSTAGRAM_OAUTH_AUTHORIZE_URL = 'https://api.instagram.com/oauth/authorize'
 INSTAGRAM_OAUTH_ACCESS_TOKEN_URL = 'https://api.instagram.com/oauth/access_token'
 
 
+#Foursquare Integration
+FOURSQUARE_INTEGRATION_ENABLED = False
+FOURSQUARE_API_URL = 'https://api.foursquare.com/v2/'
+FOURSQUARE_ACCESS_TOKEN = ''
+FOURSQUARE_SHOW_CURRENT_DAY = False
+
+FOURSQUARE_OAUTH_ENABLED = False
+FOURSQUARE_CLIENT_ID = ''
+FOURSQUARE_CLIENT_SECRET = ''
+FOURSQUARE_OAUTH_AUTHORIZE_URL = 'https://foursquare.com/oauth2/authenticate'
+FOURSQUARE_OAUTH_ACCESS_TOKEN_URL = 'https://foursquare.com/oauth2/access_token'
+
+
 #Google Analytics
 GOOGLE_ANALYTICS_TRACKING_ID = os.environ['GOOGLE_ANALYTICS_TRACKING_ID']
+
+
+#Disqus Integration
+DISQUS_INTEGRATION_ENABLED = False
+DISQUS_SHORTNAME = ''
+
+
+#Lastfm Integration
+LASTFM_INTEGRATION_ENABLED = False
+LASTFM_API_URL = 'http://ws.audioscrobbler.com/2.0/'
+LASTFM_API_KEY = ''
+LASTFM_USERNAME = ''
+
+
+#SoundCloud Integration
+SOUNDCLOUD_INTEGRATION_ENABLED = False
+SOUNDCLOUD_API_URL = 'https://api.soundcloud.com/'
+SOUNDCLOUD_CLIENT_ID = ''
+SOUNDCLOUD_SHOW_ARTWORK = False
+SOUNDCLOUD_PLAYER_COLOR = ''
+
+
+#Bitbucket Integration
+BITBUCKET_INTEGRATION_ENABLED = False
+BITBUCKET_API_URL = 'https://api.bitbucket.org/1.0/'
+# Forks count require one connection for each repository,
+# set BITBUCKET_SHOW_FORKS to false to disable
+BITBUCKET_SHOW_FORKS = False
