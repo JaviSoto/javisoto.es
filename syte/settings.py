@@ -39,6 +39,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'syte.middlewares.redirect_middleware.ValidateHostMiddleware',
 )
 
 ROOT_URLCONF = 'syte.urls'

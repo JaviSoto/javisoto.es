@@ -8,7 +8,7 @@ if DEPLOYMENT_MODE == 'dev':
 	PREPEND_WWW = False
 	DEBUG = True
 else:
-	SITE_ROOT_URI = 'http://www.javisoto.es/'
+	SITE_ROOT_URI = 'http://www.javiersoto.me/'
 	PREPEND_WWW = True
 	DEBUG = False
 
