@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 DEPLOYMENT_MODE = 'prod'
 COMPRESS_REVISION_NUMBER = '1.1'
 
